@@ -1,0 +1,24 @@
+{
+  "name": "part/customeraddresshotfix",
+  "description": "A plugin to fix customer address edit bug",
+    "version": "1.0.0",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+    "authors": [
+        {
+            "name": "part GmbH"
+        }
+    ],
+  "autoload": {
+    "psr-4": {
+      "PartCustomerAdressHotFix\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "PartCustomerAdressHotFix\\PartCustomerAdressHotFix",
+    "label": {
+      "de-DE": "Part Hotfix für Kunden Adressen Fehler",
+      "en-GB": "Part Hoftix for customer address bug"
+    }
+  }
+}
